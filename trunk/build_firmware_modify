@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@sunsoso 
-sunsoso
-/
-rt-n56u
-Public
-forked from hanwckf/rt-n56u
-0
-02.8k
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-rt-n56u/trunk/build_firmware_modify
-@hanwckf
-hanwckf boards: bump mt7615/mt7915 kernel config
-Latest commit 2d64053 on 6 Jun
- History
- 2 contributors
-@hanwckf@Yh793
-Executable File  481 lines (458 sloc)  18.4 KB
-   
 #!/bin/bash
 
 if [ -z "$1" ] || [ "$EUID" != 0 ]; then
